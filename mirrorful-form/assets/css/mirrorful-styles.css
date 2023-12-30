@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Spectral:wght@700&display=swap');
+
+.mirror-panel {
+    text-align: center;
+}
+
+.mirror-title {
+    font-family: 'Spectral', serif;
+    font-size: 32px;
+    color: #3E3E3E;
+    padding: 40px;
+}
+
+.selection-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3E3E3E;
+    border-color: #3E3E3E;
+    background: none;
+    cursor: pointer;
+    min-width: 170px;
+    min-height: 130px;
+    margin: 20px;
+}
+
+/* Panel - Step 2 styles */
+input.sqaure-range {
+    accent-color: #3E3E3E;
+    display: block;
+    margin: auto;
+    min-width: 400px;
+}
+
+.next-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background: none;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 20px;
+    color: #1C5A4C;
+    border: 3px solid #1C5A4C;
+}
+
+/* Panel - Step 3 styles */
+.duration-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #3E3E3E;
+    border-color: #3E3E3E;
+    background: none;
+    cursor: pointer;
+    min-width: 170px;
+    min-height: 150px;
+    margin: 20px;
+}
+
+.duration-button small,
+b {
+    display: block;
+}
+
+.duration-button small {
+    font-size: 14px;
+}
+
+.duration-button b {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* Panel - Step 4 styles */
+.cost-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.cost {
+    min-width: 200px;
+    border: 2px solid #707070;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #606060;
+    margin: 2px;
+}
+
+.best-cost {
+    min-width: 200px;
+    background-color: #4F948C;
+    border: 2px solid #4F948C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 2px;
+}
+
+.best-cost-description {
+    color: #4F948C;
+}
+
+.result-title {
+    font-family: 'Spectral', serif;
+    font-size: 32px;
+    color: #3E3E3E;
+}
+
+.mirror-subtitle {
+    font-size: 18px;
+}
